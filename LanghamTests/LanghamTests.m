@@ -6,11 +6,8 @@
 //  Copyright (c) 2014 martin steel. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import "LanghamTests.h"
 
-@interface LanghamTests : XCTestCase
-
-@end
 
 @implementation LanghamTests
 
@@ -28,7 +25,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSMutableArray* menuItems = [Helpers FetchMenuContents];
+    
+    STAssertEqualObjects(@"MAIN AREAS", [menuItems objectAtIndex:0],@"First Menu Item is wrong");
 }
 
 @end

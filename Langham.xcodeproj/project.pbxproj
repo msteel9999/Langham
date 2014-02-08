@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF552B4B18A6A991007A3822 /* PanoramicURLS.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */; };
 		EFE7ED5018A6850D00568AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED4F18A6850D00568AC2 /* Foundation.framework */; };
 		EFE7ED5218A6850D00568AC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED5118A6850D00568AC2 /* CoreGraphics.framework */; };
 		EFE7ED5418A6850D00568AC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED5318A6850D00568AC2 /* UIKit.framework */; };
@@ -23,6 +24,9 @@
 		EFE7ED7718A6850E00568AC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED5318A6850D00568AC2 /* UIKit.framework */; };
 		EFE7ED7F18A6850E00568AC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFE7ED7D18A6850E00568AC2 /* InfoPlist.strings */; };
 		EFE7ED8118A6850E00568AC2 /* LanghamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE7ED8018A6850E00568AC2 /* LanghamTests.m */; };
+		EFE7ED8C18A6885B00568AC2 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE7ED8B18A6885B00568AC2 /* Helpers.m */; };
+		EFE7ED8E18A689A600568AC2 /* MenuItems.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFE7ED8D18A689A600568AC2 /* MenuItems.txt */; };
+		EFE7ED9118A68DCB00568AC2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED9018A68DCB00568AC2 /* SenTestingKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PanoramicURLS.txt; sourceTree = "<group>"; };
 		EFE7ED4C18A6850D00568AC2 /* Langham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Langham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE7ED4F18A6850D00568AC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFE7ED5118A6850D00568AC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +63,11 @@
 		EFE7ED7C18A6850E00568AC2 /* LanghamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanghamTests-Info.plist"; sourceTree = "<group>"; };
 		EFE7ED7E18A6850E00568AC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFE7ED8018A6850E00568AC2 /* LanghamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanghamTests.m; sourceTree = "<group>"; };
+		EFE7ED8A18A6885B00568AC2 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		EFE7ED8B18A6885B00568AC2 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		EFE7ED8D18A689A600568AC2 /* MenuItems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MenuItems.txt; sourceTree = "<group>"; };
+		EFE7ED8F18A68C8000568AC2 /* LanghamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanghamTests.h; sourceTree = "<group>"; };
+		EFE7ED9018A68DCB00568AC2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE7ED9118A68DCB00568AC2 /* SenTestingKit.framework in Frameworks */,
 				EFE7ED5218A6850D00568AC2 /* CoreGraphics.framework in Frameworks */,
 				EFE7ED5418A6850D00568AC2 /* UIKit.framework in Frameworks */,
 				EFE7ED5018A6850D00568AC2 /* Foundation.framework in Frameworks */,
@@ -106,6 +117,7 @@
 		EFE7ED4E18A6850D00568AC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFE7ED9018A68DCB00568AC2 /* SenTestingKit.framework */,
 				EFE7ED4F18A6850D00568AC2 /* Foundation.framework */,
 				EFE7ED5118A6850D00568AC2 /* CoreGraphics.framework */,
 				EFE7ED5318A6850D00568AC2 /* UIKit.framework */,
@@ -117,6 +129,8 @@
 		EFE7ED5518A6850D00568AC2 /* Langham */ = {
 			isa = PBXGroup;
 			children = (
+				EFE7ED8A18A6885B00568AC2 /* Helpers.h */,
+				EFE7ED8B18A6885B00568AC2 /* Helpers.m */,
 				EFE7ED5E18A6850E00568AC2 /* spaarksAppDelegate.h */,
 				EFE7ED5F18A6850E00568AC2 /* spaarksAppDelegate.m */,
 				EFE7ED6118A6850E00568AC2 /* Main_iPhone.storyboard */,
@@ -138,6 +152,8 @@
 				EFE7ED5818A6850E00568AC2 /* InfoPlist.strings */,
 				EFE7ED5B18A6850E00568AC2 /* main.m */,
 				EFE7ED5D18A6850E00568AC2 /* Langham-Prefix.pch */,
+				EFE7ED8D18A689A600568AC2 /* MenuItems.txt */,
+				EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +161,7 @@
 		EFE7ED7A18A6850E00568AC2 /* LanghamTests */ = {
 			isa = PBXGroup;
 			children = (
+				EFE7ED8F18A68C8000568AC2 /* LanghamTests.h */,
 				EFE7ED8018A6850E00568AC2 /* LanghamTests.m */,
 				EFE7ED7B18A6850E00568AC2 /* Supporting Files */,
 			);
@@ -237,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE7ED8E18A689A600568AC2 /* MenuItems.txt in Resources */,
+				EF552B4B18A6A991007A3822 /* PanoramicURLS.txt in Resources */,
 				EFE7ED6618A6850E00568AC2 /* Main_iPad.storyboard in Resources */,
 				EFE7ED6E18A6850E00568AC2 /* Images.xcassets in Resources */,
 				EFE7ED6318A6850E00568AC2 /* Main_iPhone.storyboard in Resources */,
@@ -261,6 +280,7 @@
 			files = (
 				EFE7ED6018A6850E00568AC2 /* spaarksAppDelegate.m in Sources */,
 				EFE7ED5C18A6850E00568AC2 /* main.m in Sources */,
+				EFE7ED8C18A6885B00568AC2 /* Helpers.m in Sources */,
 				EFE7ED6918A6850E00568AC2 /* spaarksMasterViewController.m in Sources */,
 				EFE7ED6C18A6850E00568AC2 /* spaarksDetailViewController.m in Sources */,
 			);
@@ -397,8 +417,14 @@
 		EFE7ED8518A6850E00568AC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Langham/Langham-Prefix.pch";
 				INFOPLIST_FILE = "Langham/Langham-Info.plist";
@@ -410,8 +436,14 @@
 		EFE7ED8618A6850E00568AC2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Langham/Langham-Prefix.pch";
 				INFOPLIST_FILE = "Langham/Langham-Info.plist";
@@ -481,6 +513,7 @@
 				EFE7ED8618A6850E00568AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE7ED8718A6850E00568AC2 /* Build configuration list for PBXNativeTarget "LanghamTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +522,7 @@
 				EFE7ED8918A6850E00568AC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

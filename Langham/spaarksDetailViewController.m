@@ -33,10 +33,14 @@
 
 - (void)configureView
 {
-    // Update the user interface for the detail item.
+    if (self.detailItem)
+    {
+        //self.detailDescriptionLabel.text = [self.detailItem description];
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        NSString *fullURL = [Helpers GetURLForPanoramic:_detailItem];
+        NSURL *url = [NSURL URLWithString:fullURL];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.detailWebView loadRequest:requestObj];
     }
 }
 
@@ -45,6 +49,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    //self.detailWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    
+    [self.detailWebView setAutoresizingMask:(UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth)];
 }
 
 - (void)didReceiveMemoryWarning

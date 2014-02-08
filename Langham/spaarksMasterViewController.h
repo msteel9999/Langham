@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Helpers.h"
 
 @class spaarksDetailViewController;
 

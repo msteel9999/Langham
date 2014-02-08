@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EF552B4B18A6A991007A3822 /* PanoramicURLS.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */; };
+		EF552B5118A6CEC2007A3822 /* LanghamLogoLoRes120.png in Resources */ = {isa = PBXBuildFile; fileRef = EF552B5018A6CEC2007A3822 /* LanghamLogoLoRes120.png */; };
+		EF552B5318A6CF18007A3822 /* LanghamLogoLoRes76.png in Resources */ = {isa = PBXBuildFile; fileRef = EF552B5218A6CF18007A3822 /* LanghamLogoLoRes76.png */; };
+		EF552B5518A6CF74007A3822 /* LanghamLogoLoRes152.png in Resources */ = {isa = PBXBuildFile; fileRef = EF552B5418A6CF74007A3822 /* LanghamLogoLoRes152.png */; };
 		EFE7ED5018A6850D00568AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED4F18A6850D00568AC2 /* Foundation.framework */; };
 		EFE7ED5218A6850D00568AC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED5118A6850D00568AC2 /* CoreGraphics.framework */; };
 		EFE7ED5418A6850D00568AC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED5318A6850D00568AC2 /* UIKit.framework */; };
@@ -41,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PanoramicURLS.txt; sourceTree = "<group>"; };
+		EF552B5018A6CEC2007A3822 /* LanghamLogoLoRes120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LanghamLogoLoRes120.png; sourceTree = "<group>"; };
+		EF552B5218A6CF18007A3822 /* LanghamLogoLoRes76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LanghamLogoLoRes76.png; sourceTree = "<group>"; };
+		EF552B5418A6CF74007A3822 /* LanghamLogoLoRes152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LanghamLogoLoRes152.png; sourceTree = "<group>"; };
 		EFE7ED4C18A6850D00568AC2 /* Langham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Langham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE7ED4F18A6850D00568AC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFE7ED5118A6850D00568AC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +154,9 @@
 		EFE7ED5618A6850E00568AC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF552B5418A6CF74007A3822 /* LanghamLogoLoRes152.png */,
+				EF552B5218A6CF18007A3822 /* LanghamLogoLoRes76.png */,
+				EF552B5018A6CEC2007A3822 /* LanghamLogoLoRes120.png */,
 				EFE7ED5718A6850E00568AC2 /* Langham-Info.plist */,
 				EFE7ED5818A6850E00568AC2 /* InfoPlist.strings */,
 				EFE7ED5B18A6850E00568AC2 /* main.m */,
@@ -256,9 +265,12 @@
 			files = (
 				EFE7ED8E18A689A600568AC2 /* MenuItems.txt in Resources */,
 				EF552B4B18A6A991007A3822 /* PanoramicURLS.txt in Resources */,
+				EF552B5118A6CEC2007A3822 /* LanghamLogoLoRes120.png in Resources */,
 				EFE7ED6618A6850E00568AC2 /* Main_iPad.storyboard in Resources */,
+				EF552B5318A6CF18007A3822 /* LanghamLogoLoRes76.png in Resources */,
 				EFE7ED6E18A6850E00568AC2 /* Images.xcassets in Resources */,
 				EFE7ED6318A6850E00568AC2 /* Main_iPhone.storyboard in Resources */,
+				EF552B5518A6CF74007A3822 /* LanghamLogoLoRes152.png in Resources */,
 				EFE7ED5A18A6850E00568AC2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +430,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -437,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

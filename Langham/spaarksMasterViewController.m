@@ -37,6 +37,11 @@
     _objects = [[NSMutableArray alloc] init];
     
     _objects = [Helpers FetchMenuContents];
+    
+    
+    //self.tableView.style = UITableViewStylePlain;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    [self.tableView setSeparatorColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning

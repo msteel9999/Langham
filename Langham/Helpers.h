@@ -12,4 +12,6 @@
 
 + (NSMutableArray*) FetchMenuContents;
 + (NSString*) GetURLForPanoramic:(NSString*) panoramicName;
+
++ (BOOL) IsDeviceIpad;
 @end

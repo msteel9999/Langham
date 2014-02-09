@@ -40,8 +40,17 @@
         NSString *fullURL = [Helpers GetURLForPanoramic:_detailItem];
         NSURL *url = [NSURL URLWithString:fullURL];
         NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-        [self.detailWebView loadRequest:requestObj];
+        
+        [self setWebviewSource:requestObj];
     }
+}
+
+- (void) setWebviewSource:(NSURLRequest*) requestObj
+{
+    if([Helpers IsDeviceIpad])
+        [self.detailWebView loadRequest:requestObj];
+    else
+        [self.iphoneDetailWebView loadRequest:requestObj];
 }
 
 - (void)viewDidLoad
@@ -49,8 +58,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
-    
-    //self.detailWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     
     [self.detailWebView setAutoresizingMask:(UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth)];
 }
@@ -77,4 +84,18 @@
     self.masterPopoverController = nil;
 }
 
+- (IBAction)facebookTouchUpInside:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/panomaticsinternational"]];
+}
+
+- (IBAction)twitterTouchUpInside:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/panomatics_usa"]];
+}
+
+- (IBAction)googlePlusTouchUpInside:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.panomatics.com/#"]];
+}
 @end

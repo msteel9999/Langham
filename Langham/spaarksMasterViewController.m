@@ -26,6 +26,15 @@
     [super awakeFromNib];
 }
 
+- (void)styleMenu
+{
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    UIColor* orange = [UIColor colorWithRed:(158/255.0) green:(117/255.0) blue:(56/255.0) alpha:1] ;
+    [self.tableView setSeparatorColor: orange];
+    
+    [self.tableView setSeparatorInset:UIEdgeInsetsZero];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -37,11 +46,9 @@
     _objects = [[NSMutableArray alloc] init];
     
     _objects = [Helpers FetchMenuContents];
-    
-    
-    //self.tableView.style = UITableViewStylePlain;
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
-    [self.tableView setSeparatorColor:[UIColor whiteColor]];
+
+    [self styleMenu];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,6 +75,9 @@
 
     NSDate *object = _objects[indexPath.row];
     cell.textLabel.text = [object description];
+    
+    [cell setBackgroundColor:[UIColor blackColor]];
+    [cell.textLabel setTextColor:[UIColor whiteColor]];
     
     return cell;
 }

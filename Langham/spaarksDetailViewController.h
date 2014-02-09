@@ -15,4 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIWebView *detailWebView;
+@property (weak, nonatomic) IBOutlet UIWebView *iphoneDetailWebView;
+- (IBAction)facebookTouchUpInside:(id)sender;
+- (IBAction)twitterTouchUpInside:(id)sender;
+- (IBAction)googlePlusTouchUpInside:(id)sender;
 @end

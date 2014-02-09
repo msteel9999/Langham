@@ -56,4 +56,10 @@
     
     return [NSString stringWithContentsOfFile:path usedEncoding:&encoding error:&error];
 }
+
++ (BOOL) IsDeviceIpad
+{
+    return ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad);
+}
+
 @end

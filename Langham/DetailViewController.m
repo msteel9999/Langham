@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 martin steel. All rights reserved.
 //
 
-#import "spaarksDetailViewController.h"
+#import "DetailViewController.h"
 
-@interface spaarksDetailViewController ()
+@interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
 @end
 
-@implementation spaarksDetailViewController
+@implementation DetailViewController
 
 #pragma mark - Managing the detail item
 

@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 martin steel. All rights reserved.
 //
 
-#import "spaarksMasterViewController.h"
+#import "MasterViewController.h"
 
-#import "spaarksDetailViewController.h"
+#import "DetailViewController.h"
 
-@interface spaarksMasterViewController () {
+@interface MasterViewController () {
     NSMutableArray *_objects;
 }
 @end
 
-@implementation spaarksMasterViewController
+@implementation MasterViewController
 
 - (void)awakeFromNib
 {
@@ -41,7 +41,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     //self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    self.detailViewController = (spaarksDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     _objects = [[NSMutableArray alloc] init];
     

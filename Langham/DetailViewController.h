@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Helpers.h"
 
-@interface spaarksDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 
 @property (strong, nonatomic) id detailItem;
 

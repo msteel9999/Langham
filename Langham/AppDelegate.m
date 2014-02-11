@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 martin steel. All rights reserved.
 //
 
-#import "spaarksAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation spaarksAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

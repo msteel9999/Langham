@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "Helpers.h"
 
-@class spaarksDetailViewController;
+@class DetailViewController;
 
-@interface spaarksMasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController
 
-@property (strong, nonatomic) spaarksDetailViewController *detailViewController;
+@property (strong, nonatomic) DetailViewController *detailViewController;
 
 @end

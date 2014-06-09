@@ -1,5 +1,5 @@
 //
-//  spaarksAppDelegate.m
+//  AppDelegate.m
 //  Langham
 //
 //  Created by martin steel on 08/02/2014.

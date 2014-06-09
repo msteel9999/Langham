@@ -1,5 +1,5 @@
 //
-//  spaarksMasterViewController.h
+//  MasterViewController.h
 //  Langham
 //
 //  Created by martin steel on 08/02/2014.

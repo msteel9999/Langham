@@ -14,6 +14,8 @@
 {
     NSString* menuItemsString = [self GetStringFromFile:@"MenuItems":@"txt"];
     
+    NSLog([NSString stringWithFormat:@"This is the string from the file:%@",menuItemsString]);
+    
     NSArray *menuItemsArray = [menuItemsString componentsSeparatedByString:@";"];
     
     return (NSMutableArray*)menuItemsArray;

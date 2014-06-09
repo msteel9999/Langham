@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF248D9418A798580072D270 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE7ED7418A6850E00568AC2 /* XCTest.framework */; };
 		EF248DDD18A79C3B0072D270 /* HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF248DDC18A79C3B0072D270 /* HelperTests.m */; };
 		EF552B4B18A6A991007A3822 /* PanoramicURLS.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF552B4A18A6A990007A3822 /* PanoramicURLS.txt */; };
 		EF552B5118A6CEC2007A3822 /* LanghamLogoLoRes120.png in Resources */ = {isa = PBXBuildFile; fileRef = EF552B5018A6CEC2007A3822 /* LanghamLogoLoRes120.png */; };
@@ -82,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF248D9418A798580072D270 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
